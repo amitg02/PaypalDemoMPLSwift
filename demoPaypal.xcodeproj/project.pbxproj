@@ -12,6 +12,13 @@
 		3A812D9F1D2BC8E500F901CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A812D9D1D2BC8E500F901CB /* Main.storyboard */; };
 		3A812DA11D2BC8E500F901CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A812DA01D2BC8E500F901CB /* Assets.xcassets */; };
 		3A812DA41D2BC8E500F901CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A812DA21D2BC8E500F901CB /* LaunchScreen.storyboard */; };
+		3A812DB71D2BF29200F901CB /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DAC1D2BF29200F901CB /* libPayPalMPL.a */; };
+		3A812DBE1D2BF2FD00F901CB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DB91D2BF2FD00F901CB /* AddressBook.framework */; };
+		3A812DBF1D2BF2FD00F901CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBA1D2BF2FD00F901CB /* CoreGraphics.framework */; };
+		3A812DC01D2BF2FD00F901CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBB1D2BF2FD00F901CB /* Security.framework */; };
+		3A812DC11D2BF2FD00F901CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBC1D2BF2FD00F901CB /* SystemConfiguration.framework */; };
+		3A812DC21D2BF2FD00F901CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBD1D2BF2FD00F901CB /* UIKit.framework */; };
+		3A812DC41D2BF30D00F901CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DC31D2BF30D00F901CB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,24 @@
 		3A812DA01D2BC8E500F901CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A812DA31D2BC8E500F901CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A812DA51D2BC8E500F901CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A812DAC1D2BF29200F901CB /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
+		3A812DAD1D2BF29200F901CB /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
+		3A812DAE1D2BF29200F901CB /* PayPalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAddress.h; sourceTree = "<group>"; };
+		3A812DAF1D2BF29200F901CB /* PayPalAdvancedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAdvancedPayment.h; sourceTree = "<group>"; };
+		3A812DB01D2BF29200F901CB /* PayPalAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAmounts.h; sourceTree = "<group>"; };
+		3A812DB11D2BF29200F901CB /* PayPalInvoiceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceData.h; sourceTree = "<group>"; };
+		3A812DB21D2BF29200F901CB /* PayPalInvoiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceItem.h; sourceTree = "<group>"; };
+		3A812DB31D2BF29200F901CB /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		3A812DB41D2BF29200F901CB /* PayPalPreapprovalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPreapprovalDetails.h; sourceTree = "<group>"; };
+		3A812DB51D2BF29200F901CB /* PayPalReceiverAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverAmounts.h; sourceTree = "<group>"; };
+		3A812DB61D2BF29200F901CB /* PayPalReceiverPaymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverPaymentDetails.h; sourceTree = "<group>"; };
+		3A812DB91D2BF2FD00F901CB /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		3A812DBA1D2BF2FD00F901CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A812DBB1D2BF2FD00F901CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3A812DBC1D2BF2FD00F901CB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A812DBD1D2BF2FD00F901CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A812DC31D2BF30D00F901CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A812DC51D2BF3CC00F901CB /* demoPaypal-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demoPaypal-Bridge-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A812DC41D2BF30D00F901CB /* Foundation.framework in Frameworks */,
+				3A812DBE1D2BF2FD00F901CB /* AddressBook.framework in Frameworks */,
+				3A812DBF1D2BF2FD00F901CB /* CoreGraphics.framework in Frameworks */,
+				3A812DC01D2BF2FD00F901CB /* Security.framework in Frameworks */,
+				3A812DC11D2BF2FD00F901CB /* SystemConfiguration.framework in Frameworks */,
+				3A812DC21D2BF2FD00F901CB /* UIKit.framework in Frameworks */,
+				3A812DB71D2BF29200F901CB /* libPayPalMPL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +86,48 @@
 		3A812D981D2BC8E500F901CB /* demoPaypal */ = {
 			isa = PBXGroup;
 			children = (
+				3A812DB81D2BF2AE00F901CB /* Framework */,
+				3A812DAB1D2BF29200F901CB /* Library */,
 				3A812D991D2BC8E500F901CB /* AppDelegate.swift */,
 				3A812D9B1D2BC8E500F901CB /* ViewController.swift */,
 				3A812D9D1D2BC8E500F901CB /* Main.storyboard */,
 				3A812DA01D2BC8E500F901CB /* Assets.xcassets */,
 				3A812DA21D2BC8E500F901CB /* LaunchScreen.storyboard */,
 				3A812DA51D2BC8E500F901CB /* Info.plist */,
+				3A812DC51D2BF3CC00F901CB /* demoPaypal-Bridge-Header.h */,
 			);
 			path = demoPaypal;
+			sourceTree = "<group>";
+		};
+		3A812DAB1D2BF29200F901CB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3A812DAC1D2BF29200F901CB /* libPayPalMPL.a */,
+				3A812DAD1D2BF29200F901CB /* PayPal.h */,
+				3A812DAE1D2BF29200F901CB /* PayPalAddress.h */,
+				3A812DAF1D2BF29200F901CB /* PayPalAdvancedPayment.h */,
+				3A812DB01D2BF29200F901CB /* PayPalAmounts.h */,
+				3A812DB11D2BF29200F901CB /* PayPalInvoiceData.h */,
+				3A812DB21D2BF29200F901CB /* PayPalInvoiceItem.h */,
+				3A812DB31D2BF29200F901CB /* PayPalPayment.h */,
+				3A812DB41D2BF29200F901CB /* PayPalPreapprovalDetails.h */,
+				3A812DB51D2BF29200F901CB /* PayPalReceiverAmounts.h */,
+				3A812DB61D2BF29200F901CB /* PayPalReceiverPaymentDetails.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		3A812DB81D2BF2AE00F901CB /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3A812DC31D2BF30D00F901CB /* Foundation.framework */,
+				3A812DB91D2BF2FD00F901CB /* AddressBook.framework */,
+				3A812DBA1D2BF2FD00F901CB /* CoreGraphics.framework */,
+				3A812DBB1D2BF2FD00F901CB /* Security.framework */,
+				3A812DBC1D2BF2FD00F901CB /* SystemConfiguration.framework */,
+				3A812DBD1D2BF2FD00F901CB /* UIKit.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +317,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = demoPaypal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoPaypal/Library",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.atApp.demoPaypal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Chetu/Desktop/AT/demoPaypal/demoPaypal/demoPaypal-Bridge-Header.h";
 			};
 			name = Debug;
 		};
@@ -262,8 +333,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = demoPaypal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoPaypal/Library",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.atApp.demoPaypal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Chetu/Desktop/AT/demoPaypal/demoPaypal/demoPaypal-Bridge-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +362,7 @@
 				3A812DAA1D2BC8E500F901CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
