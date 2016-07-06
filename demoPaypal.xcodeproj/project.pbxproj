@@ -15,10 +15,12 @@
 		3A812DB71D2BF29200F901CB /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DAC1D2BF29200F901CB /* libPayPalMPL.a */; };
 		3A812DBE1D2BF2FD00F901CB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DB91D2BF2FD00F901CB /* AddressBook.framework */; };
 		3A812DBF1D2BF2FD00F901CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBA1D2BF2FD00F901CB /* CoreGraphics.framework */; };
-		3A812DC01D2BF2FD00F901CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBB1D2BF2FD00F901CB /* Security.framework */; };
 		3A812DC11D2BF2FD00F901CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBC1D2BF2FD00F901CB /* SystemConfiguration.framework */; };
 		3A812DC21D2BF2FD00F901CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBD1D2BF2FD00F901CB /* UIKit.framework */; };
 		3A812DC41D2BF30D00F901CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DC31D2BF30D00F901CB /* Foundation.framework */; };
+		3A9849781D2C29B300436AAF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A812DBB1D2BF2FD00F901CB /* Security.framework */; };
+		3A98497E1D2C2B4400436AAF /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A98497D1D2C2B4400436AAF /* libz.1.dylib */; };
+		3A9849801D2C2B8D00436AAF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A98497F1D2C2B8D00436AAF /* libxml2.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		3A812DBD1D2BF2FD00F901CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3A812DC31D2BF30D00F901CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3A812DC51D2BF3CC00F901CB /* demoPaypal-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demoPaypal-Bridge-Header.h"; sourceTree = "<group>"; };
+		3A98497D1D2C2B4400436AAF /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = /usr/lib/libz.1.dylib; sourceTree = "<absolute>"; };
+		3A98497F1D2C2B8D00436AAF /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = /usr/lib/libxml2.2.dylib; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +58,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9849801D2C2B8D00436AAF /* libxml2.2.dylib in Frameworks */,
+				3A98497E1D2C2B4400436AAF /* libz.1.dylib in Frameworks */,
+				3A9849781D2C29B300436AAF /* Security.framework in Frameworks */,
 				3A812DC41D2BF30D00F901CB /* Foundation.framework in Frameworks */,
 				3A812DBE1D2BF2FD00F901CB /* AddressBook.framework in Frameworks */,
 				3A812DBF1D2BF2FD00F901CB /* CoreGraphics.framework in Frameworks */,
-				3A812DC01D2BF2FD00F901CB /* Security.framework in Frameworks */,
 				3A812DC11D2BF2FD00F901CB /* SystemConfiguration.framework in Frameworks */,
 				3A812DC21D2BF2FD00F901CB /* UIKit.framework in Frameworks */,
 				3A812DB71D2BF29200F901CB /* libPayPalMPL.a in Frameworks */,
@@ -120,6 +126,8 @@
 		3A812DB81D2BF2AE00F901CB /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				3A98497F1D2C2B8D00436AAF /* libxml2.2.dylib */,
+				3A98497D1D2C2B4400436AAF /* libz.1.dylib */,
 				3A812DC31D2BF30D00F901CB /* Foundation.framework */,
 				3A812DB91D2BF2FD00F901CB /* AddressBook.framework */,
 				3A812DBA1D2BF2FD00F901CB /* CoreGraphics.framework */,

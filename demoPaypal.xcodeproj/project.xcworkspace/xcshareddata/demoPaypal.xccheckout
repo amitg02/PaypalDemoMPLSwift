@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01631076-5A60-444E-A801-907903FBCAA4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A0E6F3D56114C7EC9592DB32F7847573B09A76C2</key>
+		<string>https://github.com/amitg02/PaypalDemoMPLSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>demoPaypal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A0E6F3D56114C7EC9592DB32F7847573B09A76C2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/amitg02/PaypalDemoMPLSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A0E6F3D56114C7EC9592DB32F7847573B09A76C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A0E6F3D56114C7EC9592DB32F7847573B09A76C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>demoPaypal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
